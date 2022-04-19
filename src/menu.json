@@ -1,0 +1,561 @@
+{
+    "appetizers": [
+        {
+            "itemName": "Zucchini",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$8.00"
+                }
+            ],
+            "itemDescription": "Sliced breaded zucchini coated with seasoned bread crumbs sprinkled with parmesan cheese.",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Mozzarella",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$8.00"
+                }
+            ],
+            "itemDescription": "Breaded mozzarella in seasoned bread crumbs sprinkled with parmesan cheese",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Mushrooms",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$8.00"
+                }
+            ],
+            "itemDescription": "Mushrooms coated with a cracker crumb coating. Crispy outside; hot and juicy inside; sprinkled with Parmesan cheese.",
+            "glutenFree": false,
+            "vegan": true
+        }
+    ],
+
+    "salads": [
+        {
+            "itemName": "Green Salad",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$4.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$8.00"
+                },
+                {
+                    "label": "With Chicken or Shrimp",
+                    "price": "$10.50"
+                }
+            ],
+            "itemDescription": "Romaine lettuce, with sliced tomatoes, olives, carrots,green pepper, garbanzo beans and mozzarella cheese. Choice of Ranch, BlueCheese or House Italian dressing.",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Caesar Salad",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$4.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$8.00"
+                },
+                {
+                    "label": "With Chicken",
+                    "price": "$10.50"
+                }
+            ],
+            "itemDescription": "Romaine lettuce with caesar dressing, croutons, parmesan cheese and sliced tomatoes.",
+            "glutenFree": false,
+            "vegan": false,
+            "starred": true
+        },
+        {
+            "itemName": "Antipasto",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$7.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$10.50"
+                }
+            ],
+            "itemDescription": "Mixture of fresh greens, sliced tomato, carrots, garbanzo beans, pepperoncini, slices of ham, salami cotta, coppocolla, pepperoni. Choice of Ranch, BlueCheese or House Italian dressing. Served with garlic bread.",
+            "glutenFree": false,
+            "vegan": false
+        }
+    ],
+
+    "pizza": [
+        {
+            "itemName": "Vegetarian",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$12.00"
+                },
+                {
+                    "label": "Medium",
+                    "price": "$16.50"
+                },
+                {
+                    "label": "Large",
+                    "price": "$19.50"
+                }
+            ],
+            "itemDescription": "Mushroom, Olive, Onion, Green Pepper, Tomato",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Hawaiian",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$9.50"
+                },
+                {
+                    "label": "Medium",
+                    "price": "$13.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$16.00"
+                }
+            ],
+            "itemDescription": "Ham, Pineapple",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Heavenly Garden",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$11.50"
+                },
+                {
+                    "label": "Medium",
+                    "price": "$15.50"
+                },
+                {
+                    "label": "Large",
+                    "price": "$19.00"
+                }
+            ],
+            "itemDescription": "Fresh Tomato, Basil And Garlic (Without Sauce)",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "House Special",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$14.00"
+                },
+                {
+                    "label": "Medium",
+                    "price": "$18.50"
+                },
+                {
+                    "label": "Large",
+                    "price": "$22.50"
+                }
+            ],
+            "itemDescription": "Extra Cheese, Pepperoni, Sausage, Mushroom, Olive, Onion, Green Pepper, Anchovy (Upon Request)",
+            "glutenFree": false,
+            "vegan": false,
+            "starred": true
+        }
+    ],
+
+    "specialties": [
+        {
+            "itemName": "Lasagna",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$11.50"
+                }
+            ],
+            "itemDescription": "Layers of pasta noodles, seasoned lean ground beef, ricotta cheese, topped with tomato-herb sauce and melted mozzarella cheese.",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Eggplant Parmesana",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$11.50"
+                }
+            ],
+            "itemDescription": "Thick slices of breaded eggplant in tomato-herb sauce and mozzarella cheese served over spaghetti.",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Ravioli",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$11.50"
+                }
+            ],
+            "itemDescription": "Beef or cheese ravioli baked in tomato-herb sauce under a blanket of mozzarella cheese.",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Chicken Parmesana",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$11.50"
+                }
+            ],
+            "itemDescription": "Breaded chicken breast in tomato-herb sauce and mozzarella cheese, served over spaghetti.",
+            "glutenFree": false,
+            "vegan": false,
+            "starred": true
+        }
+    ],
+
+    "pasta": [
+        {
+            "itemName": "Spaghetti Marinara Tomato-Herb Sauce",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$9.00"
+                }
+            ],
+            "itemDescription": "A timeless classic ready to be enjoyed.",
+            "glutenFree": false,
+            "vegan": true,
+            "starred": true
+        },
+        {
+            "itemName": "Spaghetti Bolognese Tomato-Herb Sauce (with meat)",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$10.00"
+                }
+            ],
+            "itemDescription": "Another one of Italy's most comforting dishes.",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Al Limone",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$12.50"
+                }
+            ],
+            "itemDescription": "Chicken Breast Sauteed With Mushrooms In A Lemon Cream Sauce",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Di Mare",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$12.50"
+                }
+            ],
+            "itemDescription": "Sauteed Shrimp, Broccoli, Fresh Tomato, Served In A Garlic Cream Sauce",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Alla Checca",
+            "options": [
+                {
+                    "label": "Standard",
+                    "price": "$10.00"
+                },
+                {
+                    "label": "With Chicken or Shrimp",
+                    "price": "$12.50"
+                }
+            ],
+            "itemDescription": "Fresh Tomato, Garlic, Basil and Olive Oil",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Fra Diavola",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$12.50"
+                }
+            ],
+            "itemDescription": "Chicken Breast Sauteed In White Wine, Garlic And Fresh Parsley. (Spicy)",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Primavera",
+            "options": [
+                {
+                    "label": "Standard",
+                    "price": "$10.00"
+                },
+                {
+                    "label": "With Chicken or Shrimp",
+                    "price": "$12.50"
+                }
+            ],
+            "itemDescription": "Sauteed Fresh Vegetables Served with either a Tomato-Herb Sauce or a Cream Sauce",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Chicken Cacciatore",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$12.50"
+                }
+            ],
+            "itemDescription": "Chicken Breast Sauteed In Marsala Wine, Garlic, Bell Pepper And Mushrooms, Served In Tomato-Herb Sauce",
+            "glutenFree": false,
+            "vegan": false
+        }
+    ],
+
+    "sandwiches": [
+        {
+            "itemName": "Italian Sub",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$6.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$11.00"
+                }
+            ],
+            "itemDescription": "Ham, Salami Cotta, Coppocolla, Mozzarella Cheese, Lettuce, Tomato, Pickles, Onion, Mayonnaise And Dressing",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Meatball Sub",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$6.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$11.00"
+                }
+            ],
+            "itemDescription": "Home-Made Meatballs With Tomato-Herb Sauce and Mozzarella Cheese",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Sausage Sub",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$6.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$11.00"
+                }
+            ],
+            "itemDescription": "Italian Sausage With Tomato-Herb Sauce And Mozzarella Cheese",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Meatball and Sausage Sub",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$7.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$12.00"
+                }
+            ],
+            "itemDescription": "Home Made Meatball, Italian Sausage With Tomato-Herb Sauce And Mozzarella",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Philly Cheese Steak",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$7.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$12.00"
+                }
+            ],
+            "itemDescription": "Thin Slices Of Steak With Bell Peppers, Onion And Melted Mozzarella Cheese",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Eggplant Parmesan",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$7.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$12.00"
+                }
+            ],
+            "itemDescription": "Sliced Breaded Eggplant, Tomato-Herb Sauce And Mozzarella Cheese",
+            "glutenFree": false,
+            "vegan": true
+        },
+        {
+            "itemName": "Chicken Parmesan",
+            "options": [
+                {
+                    "label": "Small",
+                    "price": "$7.00"
+                },
+                {
+                    "label": "Large",
+                    "price": "$12.00"
+                }
+            ],
+            "itemDescription": "Breaded Chicken Breast, Tomato-Herb Sauce And Mozzarella Cheese",
+            "glutenFree": false,
+            "vegan": false
+        }
+    ],
+
+    "specials": [
+        {
+            "itemName": "Filet of Salmon",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$15.50"
+                }
+            ],
+            "itemDescription": "Over linguini with our famous Pink Sauce",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Linguini with Red Clam Sauce",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$13.50"
+                }
+            ],
+            "itemDescription": "Another delicious seafood dish.",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Cajun Pasta",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$13.50"
+                }
+            ],
+            "itemDescription": "Sautéed Shrimp, Chicken Breast, Italian Sausage with Spicy Tomato Sauce over Linguini",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Fettuccini Alfredo",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$13.00"
+                }
+            ],
+            "itemDescription": "Choice of either Chicken or Shrimp",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Lobster Ravioli",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$15.50"
+                }
+            ],
+            "itemDescription": "Served with our famous Pink Sauce",
+            "glutenFree": false,
+            "vegan": false,
+            "starred": true
+        },
+        {
+            "itemName": "Spinach and Cheese Ravioli",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$13.50"
+                }
+            ],
+            "itemDescription": "Served with our famous Pink Sauce",
+            "glutenFree": false,
+            "vegan": true,
+            "starred": true
+        },
+        {
+            "itemName": "Chicken Ravioli",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$14.50"
+                }
+            ],
+            "itemDescription": "Served with Pesto Sauce",
+            "glutenFree": false,
+            "vegan": false
+        },
+        {
+            "itemName": "Linguini Al Pesto",
+            "options": [
+                {
+                    "label": null,
+                    "price": "$14.50"
+                }
+            ],
+            "itemDescription": "Served with Chicken",
+            "glutenFree": false,
+            "vegan": false,
+            "starred": true
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+.map {
+    border: 0;
+    min-width: 500px;
+    width: 30vw;
+    min-height: 300px;
+    height: 30vh;
+    border-radius: 25px;
+}
+
+.map-loading {
+    background-image: url('./spinning-loading.gif');
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.map-title {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: right;
+    border-bottom: #000 solid 3px;
+    margin-bottom: 1rem;
+}
+
+.map-wrapper {
+    background-color: rgb(148, 136, 136);
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .map {
+        min-width: 250px;
+        min-height: 150px;
+    }
+}

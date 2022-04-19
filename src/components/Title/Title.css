@@ -1,0 +1,15 @@
+.title-wrapper {
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.descriptor {
+    font-size: 150%;
+}
+
+.title-name {
+    font-size: 400%;
+    font-weight: bold;
+    /* margin-bottom: 3rem; */
+}

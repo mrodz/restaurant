@@ -1,0 +1,86 @@
+.menu-option {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 12.5px;
+    user-select: none;
+    font-size: 150%;
+    color: unset;
+    text-decoration: unset;
+}
+
+.title {
+    width: 100%;
+    background-color: rgb(253, 249, 249);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+@keyframes browsing-hover {
+    65% {
+        transform: inherit;
+    }
+    70%, 72% {
+        transform: translateY(-2vh);
+    }
+    77% {
+        transform: inherit;
+    }
+}
+
+.browsing {
+    animation: browsing-hover 5s infinite forwards;
+    text-decoration: underline;
+}
+
+.menu-option:hover {
+    animation: selected .2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+.menu-browsing-title {
+    font-size: 170%;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.menu-wrapper {
+    border-left: solid #B7B868 10px;
+    margin-left: 3rem;
+    height: fit-content;
+}
+
+[data-menu] {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@keyframes selected {
+    from {
+        background-color: unset;
+    }
+    to {
+        background-color: #B7B868;
+    }
+}
+
+.menu-options {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+
+    padding: .5rem;
+
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

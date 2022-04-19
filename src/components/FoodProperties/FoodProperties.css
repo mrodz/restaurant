@@ -1,0 +1,21 @@
+.food-properties {
+    display: flex;
+    flex-direction: row;
+    border-top: solid rgb(73, 66, 66) 2px;
+    margin-top: 1rem;
+    padding-top: .5rem;
+}
+
+.food-properties-bubble > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.food-properties-bubble {
+    border-radius: 50%;
+    background-color: #CE8D66;
+    padding: .6rem;
+    display: flex;
+    align-content: center;
+    margin: .2rem;
+}
